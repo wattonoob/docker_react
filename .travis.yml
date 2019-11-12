@@ -3,10 +3,10 @@ services:
   - docker
 
 before_install:
-  - docker build -t vishwajeet33/dockernNew -f Dockerfile.dev .
+  - docker build -t vishwajeet33/dockernew -f Dockerfile.dev .
 
 script:
-  - docker run vishwajeet33/dockernNew npm run test -- --coverage
+  - docker run vishwajeet33/dockernew npm run test -- --coverage
 
 
 
